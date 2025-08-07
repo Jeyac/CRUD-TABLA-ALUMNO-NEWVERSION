@@ -1,4 +1,4 @@
-# Backend del sistema CRUD de alumnos
+# Backend del sistema CRUD de alumnos.
 
 Este proyecto representa la parte del backend de un sistema CRUD para la gestión de alumnos, desarrollado con Flask como framework principal y utilizando PostgreSQL como base de datos.
 
