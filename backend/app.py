@@ -1,5 +1,5 @@
 from flask import Flask, request, jsonify
-from flask_cors import CORS  # Permite que la API se use desde otros dominios
+from flask_cors import CORS  # Permite que la API se use desde otros dominios.
 from database import init_app, db
 from models import Alumno
 
