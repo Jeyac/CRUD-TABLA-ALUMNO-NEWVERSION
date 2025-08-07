@@ -1,6 +1,3 @@
 __pycache__/
 .env
-instance/
-*.pyc
-*.pyo
-*.pyd
+
