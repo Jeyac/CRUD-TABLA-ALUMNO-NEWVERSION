@@ -1,4 +1,4 @@
-// URL de la API de alumnos
+// URL de la API de alumnos.
 const API_URL = 'http://127.0.0.1:5000/alumnos';
 
 // Cuando cargue la página, mostrar los alumnos
