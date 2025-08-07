@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 
 load_dotenv()  # Carga las variables de entorno desde el archivo .env.
 
-db = SQLAlchemy()  # Crear objeto para manejar la base de datos
+db = SQLAlchemy()  # Crear objeto para manejar la base de datos.
 
 def init_app(app):
     # Configurar la conexión a PostgreSQL usando las variables del .env
