@@ -11,7 +11,7 @@ En este directorio se incluyen los archivos esenciales para ejecutar el servidor
 
 El objetivo del backend es proporcionar una API REST que permita realizar las operaciones CRUD sobre los registros de alumnos, de forma sencilla y escalable.
 
-## Requisitos previos
+## Requisitos previos:
 
 - Python 3.8 o superior
 - PostgreSQL instalado y un usuario con permisos para crear una base de datos
