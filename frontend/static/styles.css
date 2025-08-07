@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #4e54c8, #8f94fb);
+  color: #333;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 12px;
+  max-width: 900px;
+  width: 100%;
+  box-shadow: 0 15px 25px rgba(0,0,0,0.2);
+}
+
+header h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #4e54c8;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+
+form input, form button {
+  padding: 10px;
+  border: 2px solid #4e54c8;
+  border-radius: 8px;
+  outline: none;
+  flex: 1 1 200px;
+  font-size: 16px;
+}
+
+form button {
+  background-color: #4e54c8;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #3b42a6;
+}
+
+.table-section {
+  margin-top: 40px;
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 600px;
+}
+
+table thead {
+  background-color: #4e54c8;
+  color: #fff;
+}
+
+th, td {
+  padding: 12px 15px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+button.action-btn {
+  padding: 6px 12px;
+  margin: 0 2px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  color: #fff;
+  font-size: 14px;
+}
+
+button.edit {
+  background-color: #f0ad4e;
+}
+
+button.delete {
+  background-color: #d9534f;
+}
+
+button.edit:hover {
+  background-color: #ec971f;
+}
+
+button.delete:hover {
+  background-color: #c9302c;
+}

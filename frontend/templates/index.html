@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" /> <!-- Configuración de caracteres -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/> <!-- Ajuste para móviles -->
+  <title>CRUD de alumnos</title>
+  <link rel="stylesheet" href="styles.css"/> <!-- Archivo CSS externo -->
+</head>
+<body>
+  <div class="container"> <!-- Contenedor principal -->
+
+    <!-- Encabezado -->
+    <header>
+      <h1>CRUD de alumnos</h1>
+    </header>
+
+    <!-- Formulario para agregar alumnos -->
+    <section class="form-section">
+      <h2>Agregar alumno</h2>
+      <form id="form-alumno">
+        <input type="text" id="nombre" placeholder="Nombre" required /> <!-- Campo nombre -->
+        <input type="text" id="apellido" placeholder="Apellido" required /> <!-- Campo apellido -->
+        <input type="number" id="edad" placeholder="Edad" required /> <!-- Campo edad -->
+        <button type="submit">Agregar</button> <!-- Botón para enviar -->
+      </form>
+    </section>
+
+    <!-- Tabla para mostrar alumnos -->
+    <section class="table-section">
+      <h2>Lista de alumnos</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>ID</th> <!-- Columna ID -->
+            <th>Nombre</th> <!-- Columna nombre -->
+            <th>Apellido</th> <!-- Columna apellido -->
+            <th>Edad</th> <!-- Columna edad -->
+            <th>Acciones</th> <!-- Columna acciones -->
+          </tr>
+        </thead>
+        <tbody id="tabla-alumnos"></tbody> <!-- Aquí se insertan las filas desde JS -->
+      </table>
+    </section>
+
+  </div>
+
+  <!-- Archivo JavaScript que maneja la lógica -->
+  <script src="app.js"></script>
+</body>
+</html>
