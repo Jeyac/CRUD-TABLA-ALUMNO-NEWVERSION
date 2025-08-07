@@ -2,7 +2,7 @@ import os
 from flask_sqlalchemy import SQLAlchemy
 from dotenv import load_dotenv
 
-load_dotenv()  # Carga las variables de entorno desde el archivo .env
+load_dotenv()  # Carga las variables de entorno desde el archivo .env.
 
 db = SQLAlchemy()  # Crear objeto para manejar la base de datos
 
