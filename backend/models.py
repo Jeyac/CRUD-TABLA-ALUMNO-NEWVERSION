@@ -1,6 +1,6 @@
 from database import db
 
-# Modelo que representa la tabla "alumno" en la base de datos
+# Modelo que representa la tabla "alumno" en la base de datos.
 class Alumno(db.Model):
     __tablename__ = 'alumno'  # Nombre de la tabla
 
