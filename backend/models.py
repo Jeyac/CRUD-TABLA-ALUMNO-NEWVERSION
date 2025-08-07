@@ -2,7 +2,7 @@ from database import db
 
 # Modelo que representa la tabla "alumno" en la base de datos.
 class Alumno(db.Model):
-    __tablename__ = 'alumno'  # Nombre de la tabla
+    __tablename__ = 'alumno'  # Nombre de la tabla.
 
     # Columnas de la tabla
     id = db.Column(db.Integer, primary_key=True)  # ID único
