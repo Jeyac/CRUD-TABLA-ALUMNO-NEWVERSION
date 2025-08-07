@@ -4,7 +4,7 @@ from database import init_app, db
 from models import Alumno
 
 app = Flask(__name__)
-CORS(app)  # Habilitar CORS en toda la app
+CORS(app)  # Habilitar CORS en toda la app.
 
 init_app(app)  # Inicializar la base de datos
 
